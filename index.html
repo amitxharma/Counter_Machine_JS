@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Counting Machine</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h1>Counting Machine</h1>
+        <p id="count-number">0</p>
+        <div class="count-section">
+          <button id="countBtn" onclick="counter()" class="red-button">
+            Count
+          </button>
+          <button id="saveBtn" onclick="save()" class="green-button">
+            Save
+          </button>
+          <button id="resetBtn" onclick="reset()" class="grey-button">
+            Reset
+          </button>
+        </div>
+        <div class="previous-count-section">
+          <h2>Previous Count: <span id="previousCount"></span></h2>
+        </div>
+      </div>
+    </div>
+    <script src="App.js"></script>
+  </body>
+</html>
